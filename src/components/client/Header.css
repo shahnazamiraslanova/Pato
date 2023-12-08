@@ -1,0 +1,53 @@
+.nav{
+    overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+    background-color: transparent;
+    display: flex;
+    padding: 25px 400px;
+   
+    
+}
+.navMain{
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.navMain ul{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.navMain .icons{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navMain ul a{
+    color: white;
+    text-decoration: none;
+}
+.navMain ul a:hover{
+    color: rgb(220, 5, 5);
+}
+.navMain a .logo{
+    background-color: transparent;
+    border: none;
+}
+.icons button{
+    color: white;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+}
+.icons button:hover{
+    
+    color:rgb(220, 5, 5) ;
+}
